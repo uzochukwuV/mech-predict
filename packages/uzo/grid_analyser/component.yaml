@@ -1,0 +1,20 @@
+name: grid_analyser
+author: uzo
+version: 0.1.0
+type: custom
+description: A tool for identifying optimal trading pairs for grid trading strategy,
+  recommending grid setup parameters, and projecting possible outcomes.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeieyvmybz77jxikm76f3wvvp7derr3ivahkclautrva7jpwjw63rxa
+  grid_analyser.py: bafybeiamegtpr6wowwc543qmyfudcywbz6uykfm2aibtjkpmlkkrlfvuli
+fingerprint_ignore_patterns: []
+entry_point: tool_name.py
+callable: run
+dependencies:
+  pandas: {}
+  numpy: {}
+  ccxt: {}
+  matplotlib: {}
+  scikit-learn: {}
